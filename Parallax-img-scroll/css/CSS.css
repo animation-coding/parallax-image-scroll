@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body 
+{
+  font: 14px;
+  color:#fff;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, a  {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 4em
+}
+h3 {
+  font-size: 2.2em
+}
+
+.contentX {
+  background:url("../img/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1950px;
+  text-align: center;
+}
+article {
+  padding: 0 0;
+  margin: 0;
+  height: 100%
+}
+.contentX article h1 {
+  padding-top: 2em;
+}
+a.btn {
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 1em 4em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+a.btn:hover {
+  border: 2px solid #041413;
+  color: #041413;
+  background: rgba(4, 20, 19, 0.25);
+}
+.contentX article h1,
+.contentX article h3 {
+  color: #fff;
+  margin: 1em 0 0.5em 0
+}
+.bgx
+{
+  position: relative;
+  background: #000;
+  height: 100vh;
+  padding: 75px 100px;
+}
+.bgx h2
+{
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
